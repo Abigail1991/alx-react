@@ -1,0 +1,21 @@
+{
+  "name": "webpack-task_1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "author": "Abigail",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.88.2",
+    "webpack-cli": "^4.10.0"
+  },
+  "dependencies": {
+    "jQuery": "^1.7.4",
+    "jquery": "^3.7.0",
+    "lodash": "^4.17.21"
+  },
+  "keywords": [],
+  "description": ""
+}
