@@ -1,0 +1,44 @@
+@import 'reset.css';
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.App-header {
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  color: #e1003c;
+  border-bottom: #e1003c solid 4px;
+}
+
+.App-header img {
+  height: 100%;
+  width: auto;
+}
+
+.App-body {
+  min-height: 75vh;
+  padding: 50px;
+}
+
+.App-footer {
+  position: relative;
+  text-align: center;
+  height: 5vh;
+  padding-top: 1.5vh;
+  border-top: #e1003c solid 4px;
+}
+
+.App-footer p {
+  font-style: italic;
+}
