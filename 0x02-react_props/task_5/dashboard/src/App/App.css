@@ -1,0 +1,19 @@
+@import '../utils/reset.css';
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.App-body {
+  min-height: 75vh;
+  padding: 50px;
+}
