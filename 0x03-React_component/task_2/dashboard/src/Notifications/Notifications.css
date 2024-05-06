@@ -1,0 +1,36 @@
+.Notifications {
+  position: absolute;
+  right: 0;
+  top: 4vh;
+  margin: 1vh 2vh;
+  padding: 2vh 2vw;
+  border: #e1003c dashed 2px;
+  width: 45vw;
+}
+
+p {
+  margin-top: 0;
+}
+
+ul {
+  margin-bottom: 0;
+}
+
+li[data-notification-type='default'] {
+  color: blue;
+}
+
+li[data-notification-type='urgent'] {
+  color: red;
+}
+
+.menuItem {
+  text-align: end;
+  position: absolute;
+  right: 0;
+  margin: 2vh;
+}
+
+div.Notifications p {
+  margin-bottom: 0;
+}
